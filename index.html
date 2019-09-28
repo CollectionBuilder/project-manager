@@ -9,39 +9,42 @@ layout: default
     <div class="col-md-8">
             <div class="card">
                     <div class="card-header">
-                            <h2>Upcoming Deadlines</h2>
+                            <h2>Upcoming Events <a href="timline.html" class="btn btn-sm btn-info ml-4 float-right">View Timeline</a></h2>
                     </div>
                     <div class="card-body text-center">
-       
-<p></p>
+{%for event in events limit: 6 %}
+        <div class="my-4 border-bottom row">
+            <div class="col-3 pt-3"><a class="mt-3 p-4 btn-lg {%if event.type == 'deadline' %}btn-danger{%elsif event.type == 'milestone' %}btn-success{%elsif event.type == 'conference'%}btn-info{%endif%}" href="timeline.html#{{event.date}}">{{event.type}}</a>
+            </div>
+                <div class="col-9">
+                <h3 ><a target="_blank" href="{{event.link}}">{{event.title}}</a></h3>
+            <h4> DUE: {{event.date}}</h4>
+        </div>
+    </div>
+    {%if forloop.last%}
+    <a class="btn btn-lg btn-info" href="timeline.html#{{event.date}}">View More Timeline Events</a>{%endif%}
+        {%endfor%}
 
-        <div class="ml-4">
-            <h3 id="deadline1"><a target="_blank" href=""></a>, DUE: <span></span></h3>
-        </div>
-        <div class="ml-4">
-            <h3 id="deadline1"><a target="_blank" href=""></a>, DUE: <span></span></h3>
-        </div>
-        <div class="ml-4">
-            <h3 id="deadline1"><a target="_blank" href=""></a>, DUE: <span></span></h3>
-        </div>
                     </div></div>
     <hr />
-    <div class="card mt-2">
-            <div class="card-header">
-                    <h2>Recent Meetings</h2>
-            </div>
-            <div class="card-body">
-        {%for post in site.posts limit: 2 %}
-        <div class="ml-4">
-            <h3><a target="_blank" href="{{post.url | relative_url}}">{{post.title}}</a></h3>
-            <p>{{post.date | date: "%b %-d, %Y" }}</p>
-        </div>
-        {%endfor%}
-    </div></div>
+    
     </div>
 
 <div class="col-md-4">
-<div class="card">
+        <div class="card mb-4">
+                <div class="card-header">
+                        <h2>Recent Meetings</h2>
+                </div>
+                <div class="card-body">
+            {%for post in site.posts limit: 2 %}
+            <div class="ml-4">
+                <h3><a target="_blank" href="{{post.url | relative_url}}">{{post.title}}</a></h3>
+                <p>{{post.date | date: "%b %-d, %Y" }}</p>
+            </div>
+            {%endfor%}
+            <a class="btn btn-lg btn-info" href="meetings/">View All Meetings</a>
+        </div></div>
+<!--<div class="card">
 <div class="card-header">
 <h2>Agreement Status</h2>
 </div>
@@ -63,7 +66,7 @@ layout: default
 </div>
 </div>
 
-<hr />
+<hr />-->
 <div class="card mt-2">
     <div class="card-header">
     <h2>People</h2></div>

@@ -11,7 +11,7 @@ layout: default
     <div class="timeline">
         {% for event in events %}
     
-        <div class="tl-container {{event.type}} {%if event.type == 'milestone' %}center {%else%}{% cycle 'left', 'right' %}{%endif%}">
+        <div id="{{event.date}}"  class="tl-container {{event.type}} {%if event.type == 'milestone' %}center {%else%}{% cycle 'left', 'right' %}{%endif%}">
           <div class="content">
             
             <h3>{{event.date | date: "%b %-d, %Y" }}</h3>

@@ -1,7 +1,7 @@
 # blank-dev-template
 # basic bootstrap template
-title: Lib-STATIC Project Management Kit Template
-description: This is the example template for our Project Management Kit. The site uses  
+title: CollectionBuilder Project Manger
+description:   
 # Project-start and project-end determine the time span of the project
 # If unsure, extend further into the past and future than you think necessary, use yyyy-mm-dd
 project-start: 2019-09-01
@@ -12,16 +12,14 @@ project-end: 2020-08-31
 agreement-final: true # when agreement finalized, write "true"; otherwise leave blank
 # List parties to the agreement by adding " - [party_name]"
 agreement-parties:
- - Sarah Nelson
- - CDIL
 
 
 # github-id is your github username
-github-id: uidaholib 
+github-id: collectionbuilder 
 # url is your gh-pages base, following the pattern: username.github.io
-url: https://uidaholib.github.io
+url: https://collectionbuilder.github.io
 # baseurl is your github repository's name prefixed with a /
-baseurl: /digital-project-management
+baseurl: /project-manager
 
 # Use Bootstrap (true, false)
 bootstrap: true
