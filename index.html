@@ -14,12 +14,13 @@ layout: default
                     <div class="card-body">
 {%for event in events limit: 8 %}
 {%unless event.status == "done" %}
-        <div class="my-4 border-bottom row">
-            <div class="col-2 pt-3"><a class="mt-3 btn {%if event.type == 'deadline' %}btn-warning{%elsif event.type == 'milestone' %}btn-success{%elsif event.type == 'conference'%}btn-info{%endif%}" href="timeline.html#{{event.date}}">{{event.type}}</a>
-            </div>
-                <div class="col-10 pl-4">
+        <div class="mb-4 border-bottom row">
+           
+                <div class="col-8">
                 <h3 ><a target="_blank" href="{{event.link}}">{{event.title}}</a></h3>
             <h4> DUE: {{event.date}}</h4>
+        </div>
+        <div class="col-4 pt-2"><a class="btn {%if event.type == 'deadline' %}btn-warning{%elsif event.type == 'milestone' %}btn-success{%elsif event.type == 'conference'%}btn-info{%endif%}" href="timeline.html#{{event.date}}">{{event.type}}</a>
         </div>
     </div>
     {%if forloop.last%}
