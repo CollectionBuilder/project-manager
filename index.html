@@ -19,6 +19,10 @@ layout: default
                 <div class="col-8">
                 <h3 ><a target="_blank" href="{{event.link}}">{{event.title}}</a></h3>
             <h4> DUE: {{event.date}}</h4>
+            <p>Project Lead: {{event.people}}<br> {%for person in site.data.people%}
+                {%if event.people contains person.p_id%} 
+                <img class="col-2 rounded-circle" src='{{person.image}}'/>
+                {%endif%} {%endfor%}
         </div>
         <div class="col-4 pt-2"><a class="btn {%if event.type == 'deadline' %}btn-warning{%elsif event.type == 'milestone' %}btn-success{%elsif event.type == 'conference'%}btn-info{%endif%}" href="timeline.html#{{event.date}}">{{event.type}}</a>
         </div>
