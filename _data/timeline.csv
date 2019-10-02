@@ -1,7 +1,8 @@
 type,date,title,location,link,draft-link,priority,people,status
 deadline,2019-09-30,"Proposal - Library Technology: Innovating Technologies, Services and Practices - Special Issue of College & Undergraduate Libraries",n/a,http://librarywriting.blogspot.com/2019/08/cfp-library-technology-innovating.html,,med,dbecker; ewilliamson; omwikle;jylisadoney;,done
-deadline,2019-10-04,Code4Lib Workshops Application,"Pittsburgh, PA",https://docs.google.com/forms/d/e/1FAIpQLScx95r2tJExNVDkBOdKdKe2jKij7lHhTcja7aXgDS1z9mmFPQ/viewform,,high,ewilliamson,
-conference,2020-03-08,Code4Lib Workshops,"Pittsburgh, PA",https://docs.google.com/forms/d/e/1FAIpQLScx95r2tJExNVDkBOdKdKe2jKij7lHhTcja7aXgDS1z9mmFPQ/viewform,,high,,
+deadline,2019-10-04,Code4Lib Workshops Application,"Pittsburgh, PA",https://2020.code4lib.org/general-info/propose-a-workshop.html,,high,ewilliamson,
+deadline,2019-10-04,Code4Lib Talk Application,"Pittsburgh, PA",https://2020.code4lib.org/general-info/propose-a-talk.html,,high,omwikle,
+conference,2020-03-08,Code4Lib,"Pittsburgh, PA",https://2020.code4lib.org/,,high,,
 deadline,2019-10-15,DH 2020 Presentation CFP,"Ottawa, ON (Canada)",http://dh2020.adho.org/guidelines/submission-guidelines/,,high,omwikle;,
 deadline,2019-10-15,DH 2020 Workshop CFP,"Ottawa, ON (Canada)",http://dh2020.adho.org/guidelines/submission-guidelines/,,high,omwikle;,
 conference,2020-07-22,DH 2020,"Ottawa, ON (Canada)",http://dh2020.adho.org/guidelines/submission-guidelines/,,high,dbecker; ewilliamson; omwikle;jylisadoney;,
