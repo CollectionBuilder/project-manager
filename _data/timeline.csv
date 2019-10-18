@@ -1,10 +1,10 @@
 type,date,title,location,link,draft-link,priority,people,status
 deadline,2019-09-30,"Proposal - Library Technology: Innovating Technologies, Services and Practices - Special Issue of College & Undergraduate Libraries",n/a,http://librarywriting.blogspot.com/2019/08/cfp-library-technology-innovating.html,,med,dbecker; ewilliamson; omwikle;jylisadoney;,done
 deadline,2019-10-04,Code4Lib Workshops Application,"Pittsburgh, PA",https://2020.code4lib.org/general-info/propose-a-workshop.html,,high,ewilliamson,done
-deadline,2019-10-11,Code4Lib Talk Application,"Pittsburgh, PA",https://2020.code4lib.org/general-info/propose-a-talk.html,,high,omwikle,
+deadline,2019-10-16,Code4Lib Talk Application,"Pittsburgh, PA",https://2020.code4lib.org/general-info/propose-a-talk.html,,high,omwikle,done
 conference,2020-03-08,Code4Lib,"Pittsburgh, PA",https://2020.code4lib.org/,,high,,
-deadline,2019-10-11,DH 2020 Presentation CFP,"Ottawa, ON (Canada)",http://dh2020.adho.org/guidelines/submission-guidelines/,,high,omwikle;,
-deadline,2019-10-11,DH 2020 Workshop CFP,"Ottawa, ON (Canada)",http://dh2020.adho.org/guidelines/submission-guidelines/,,high,omwikle;,
+deadline,2019-10-22,DH 2020 Presentation CFP,"Ottawa, ON (Canada)",http://dh2020.adho.org/guidelines/submission-guidelines/,,high,omwikle;,
+deadline,2019-10-22,DH 2020 Workshop CFP,"Ottawa, ON (Canada)",http://dh2020.adho.org/guidelines/submission-guidelines/,,high,omwikle;,
 conference,2020-07-22,DH 2020,"Ottawa, ON (Canada)",http://dh2020.adho.org/guidelines/submission-guidelines/,,high,dbecker; ewilliamson; omwikle;jylisadoney;,
 deadline,2019-10-30,Special Issue: DH + Literacies Proposal,n/a,https://acrl.ala.org/dh/2019/09/04/cfp-exploring-literacies-through-digital-humanities/,,med,dbecker,
 deadline,2019-10-31,CollectionsasData Cohort 2 Grant Application,tbd,https://collectionsasdata.github.io/part2whole/cfp/,,high,ewilliamson,done
@@ -18,5 +18,7 @@ conference,2020-03-08,Code4Lib,"Pittsburgh, PA",https://2020.code4lib.org/,,tbd,
 conference,2020-03-27,Online NW,"Portland, OR",https://onlinenorthwest.org/,,tbd,,
 conference,2020-03-31,CNI Spring,"San Diego, CA",https://www.cni.org/event/cni-spring-2020-mm,,tbd,,
 deadline,2019-12-20,CollectionBuilder Pedagogy Article Internal Deadline,n/a,,,med,dbecker; ewilliamson; omwikle,
-milestone,2019-10-13,DLF Workshop,,,,,dbecker; ewilliamson; omwikle,
-milestone,2019-10-14,DLF Presentation,,,,,dbecker; ewilliamson; omwikle,
+milestone,2019-10-13,DLF Workshop,,,,,dbecker; ewilliamson; omwikle,done
+milestone,2019-10-14,DLF Presentation,,,,,dbecker; ewilliamson; omwikle,done
+conference,2020-05-13,"csv,conf,v5","Washington, D.C.",https://csvconf.com/,,,,
+deadline,2020-02-07,"csv,conf,v5 Presentation CFP","Washington, D.C.",https://csvconf.com/,,,omwikle;,
