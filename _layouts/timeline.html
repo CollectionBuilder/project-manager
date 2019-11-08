@@ -5,17 +5,21 @@ layout: default
 {% assign filters = events| map: "type" | uniq %}
 <p class="text-light">Filter by: {%for filter in filters%}
 <button role="button" class="filter btn btn-sm btn-primary" data-filter="{{filter}}">{{filter | capitalize}}</button>
-{%endfor%} </p>
+{%endfor%}</p>
     
     <h2 class="text-white text-center my-4">Project Start - {{site.project-start |date: "%a, %b %d, %y" }}</h2>
     <div class="timeline">
         {% for event in events %}
-        {%unless event.status == "done" %}
+        {%unless event.status == "done" or event.status == "void" %}
         <div id="{{event.date}}"  class="tl-container {{event.type}} {%if event.type == 'milestone' %}center {%else%}{% cycle 'left', 'right' %}{%endif%}">
           <div class="content">
             
             <h3>{{event.date | date: "%b %-d, %Y" }}</h3>
+            {% if event.type == "deadline" %}
+            <p class="text-info"><em>{{event.type | upcase}}:</em> {{ event.proposal-type | upcase }}</p>
+            {% else %}
             <p class="text-info"><em>{{event.type | upcase}}</em></p>
+            {% endif %}
             <h4><a target="_blank" href="{{event.link}}">{{event.title}}</a></h4>
             {%for person in site.data.people%}
             {%if event.people contains person.p_id%}

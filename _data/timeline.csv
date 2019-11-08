@@ -1,24 +1,26 @@
-type,date,title,location,link,draft-link,priority,people,status
-deadline,2019-09-30,"Proposal - Library Technology: Innovating Technologies, Services and Practices - Special Issue of College & Undergraduate Libraries",n/a,http://librarywriting.blogspot.com/2019/08/cfp-library-technology-innovating.html,,med,dbecker; ewilliamson; omwikle;jylisadoney;,done
-deadline,2019-10-04,Code4Lib Workshops Application,"Pittsburgh, PA",https://2020.code4lib.org/general-info/propose-a-workshop.html,,high,ewilliamson,done
-deadline,2019-10-16,Code4Lib Talk Application,"Pittsburgh, PA",https://2020.code4lib.org/general-info/propose-a-talk.html,,high,omwikle,done
-conference,2020-03-08,Code4Lib,"Pittsburgh, PA",https://2020.code4lib.org/,,high,,
-deadline,2019-10-22,DH 2020 Presentation CFP,"Ottawa, ON (Canada)",http://dh2020.adho.org/guidelines/submission-guidelines/,,high,omwikle;,
-deadline,2019-10-22,DH 2020 Workshop CFP,"Ottawa, ON (Canada)",http://dh2020.adho.org/guidelines/submission-guidelines/,,high,omwikle;,
-conference,2020-07-22,DH 2020,"Ottawa, ON (Canada)",http://dh2020.adho.org/guidelines/submission-guidelines/,,high,dbecker; ewilliamson; omwikle;jylisadoney;,
-deadline,2019-10-30,Special Issue: DH + Literacies Proposal,n/a,https://acrl.ala.org/dh/2019/09/04/cfp-exploring-literacies-through-digital-humanities/,,med,dbecker,
-deadline,2019-10-31,CollectionsasData Cohort 2 Grant Application,tbd,https://collectionsasdata.github.io/part2whole/cfp/,,high,ewilliamson,done
-deadline,2019-11-01,GlobalDH CFP,"Lansing, MI",http://www.msuglobaldh.org/cfp/,,med,dbecker,
-conference,2020-03-26,GlobalDH,"Lansing, MI",http://www.msuglobaldh.org/cfp/,,med,,
-deadline,2019-11-22,Designing for Digital CFP,"Austin, TX",http://designingfordigital.com/speaking-opportunities/,,low,ewilliamson,
-conference,2020-03-09,Designing for Digital,"Austin, TX",http://designingfordigital.com/speaking-opportunities/,,low,,
-deadline,2019-11-22,Digital Initiatives CFP,"San Diego, CA",https://digital.sandiego.edu/symposium/,,low,omwikle,
-conference,2020-04-27,Digital Initiatives,"San Diego, CA",https://digital.sandiego.edu/symposium/,,low,,
-conference,2020-03-08,Code4Lib,"Pittsburgh, PA",https://2020.code4lib.org/,,tbd,,
-conference,2020-03-27,Online NW,"Portland, OR",https://onlinenorthwest.org/,,tbd,,
-conference,2020-03-31,CNI Spring,"San Diego, CA",https://www.cni.org/event/cni-spring-2020-mm,,tbd,,
-deadline,2019-12-20,CollectionBuilder Pedagogy Article Internal Deadline,n/a,,,med,dbecker; ewilliamson; omwikle,
-milestone,2019-10-13,DLF Workshop,,,,,dbecker; ewilliamson; omwikle,done
-milestone,2019-10-14,DLF Presentation,,,,,dbecker; ewilliamson; omwikle,done
+type,date,title,location,link,draft-link,priority,people,status,proposal-type
+deadline,2019-09-30,"Proposal - Library Technology: Innovating Technologies, Services and Practices - Special Issue of College & Undergraduate Libraries",n/a,http://librarywriting.blogspot.com/2019/08/cfp-library-technology-innovating.html,,med,dbecker; ewilliamson; omwikle;jylisadoney;,done,artical
+deadline,2019-10-04,Code4Lib Workshops Application,"Pittsburgh, PA",https://2020.code4lib.org/general-info/propose-a-workshop.html,,high,ewilliamson,done,workshop
+deadline,2019-10-16,Code4Lib Talk Application,"Pittsburgh, PA",https://2020.code4lib.org/general-info/propose-a-talk.html,,high,omwikle,done,talk
+conference,2020-03-08,Code4Lib,"Pittsburgh, PA",https://2020.code4lib.org/,,high,,,
+deadline,2019-10-22,DH 2020 Presentation CFP,"Ottawa, ON (Canada)",http://dh2020.adho.org/guidelines/submission-guidelines/,,high,omwikle;,done,talk
+deadline,2019-10-22,DH 2020 Workshop CFP,"Ottawa, ON (Canada)",http://dh2020.adho.org/guidelines/submission-guidelines/,,high,omwikle;,done,workshop
+conference,2020-07-22,DH 2020,"Ottawa, ON (Canada)",http://dh2020.adho.org/guidelines/submission-guidelines/,,high,dbecker; ewilliamson; omwikle;,
+deadline,2019-10-30,Special Issue: DH + Literacies Proposal,n/a,https://acrl.ala.org/dh/2019/09/04/cfp-exploring-literacies-through-digital-humanities/,,med,dbecker,done,article
+deadline,2019-10-31,CollectionsasData Cohort 2 Grant Application,tbd,https://collectionsasdata.github.io/part2whole/cfp/,,high,ewilliamson,void,grant
+deadline,2019-11-01,GlobalDH CFP,"Lansing, MI",http://www.msuglobaldh.org/cfp/,,med,dbecker,void,talk
+conference,2020-03-26,GlobalDH,"Lansing, MI",http://www.msuglobaldh.org/cfp/,,med,,void,
+deadline,2019-11-22,Designing for Digital CFP,"Austin, TX",http://designingfordigital.com/speaking-opportunities/,,low,ewilliamson,,talk
+conference,2020-03-09,Designing for Digital,"Austin, TX",http://designingfordigital.com/speaking-opportunities/,,low,,,
+deadline,2019-11-22,Digital Initiatives CFP,"San Diego, CA",https://digital.sandiego.edu/symposium/,,low,omwikle,,talk
+conference,2020-04-27,Digital Initiatives,"San Diego, CA",https://digital.sandiego.edu/symposium/,,low,,,
+deadline,2019-12-09,Online NW,"Portland, OR",https://onlinenorthwest.org/,,med,omwikle,,talk
+conference,2020-03-27,Online NW,"Portland, OR",https://onlinenorthwest.org/,,med,,
+conference,2020-03-31,CNI Spring,"San Diego, CA",https://www.cni.org/event/cni-spring-2020-mm,,tbd,,,
+deadline,2019-12-20,CollectionBuilder Pedagogy Article Internal Deadline,n/a,,,med,dbecker; ewilliamson; omwikle,,article
+milestone,2019-10-13,DLF Workshop,,,,,dbecker; ewilliamson; omwikle,done,workshop
+milestone,2019-10-14,DLF Presentation,,,,,dbecker; ewilliamson; omwikle,done,talk
 conference,2020-05-13,"csv,conf,v5","Washington, D.C.",https://csvconf.com/,,,,
-deadline,2020-02-07,"csv,conf,v5 Presentation CFP","Washington, D.C.",https://csvconf.com/,,,omwikle;,
+deadline,2020-02-07,"csv,conf,v5 Presentation CFP","Washington, D.C.",https://csvconf.com/,,,omwikle;,,talk
+deadline,2020-01-30,"Digital Humanities Quarterly Special Issue on Minimal Computing",n/a,http://www.digitalhumanities.org/dhq/submissions/cfps.html,,,omwikle;dbecker;ewilliamson,,article
+conference,2020-06-07,"DHSI","Victoria, B.C.",https://dhsi.org/course-offerings/,,,,,
