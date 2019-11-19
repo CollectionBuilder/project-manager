@@ -3,6 +3,8 @@ title: Home
 layout: default
 ---
 {% assign events = site.data.timeline | sort: "date"  %}
+{% assign day = "now" | date: "%Y-%m-%d %H:%M" %}
+
 <h1>{{site.title}}</h1>
 
 <div class="row">
@@ -12,13 +14,14 @@ layout: default
                 <h2>Upcoming Events <a href="timeline.html" class="btn btn-sm btn-info ml-4 float-right">View Timeline</a></h2>
             </div>
             <div class="card-body">
-                {%for event in events limit: 8 %}
-                {% unless event.status == "done" or event.status == "void" %}
+                {% for event in events limit: 15 %}
+                {% if event.date >= day %}
+                {% unless event.status == "void" %}
                 <div class="mb-4 border-bottom row">
 
                     <div class="col-8">
                         <h3><a target="_blank" href="{{event.link}}">{{event.title}}</a></h3>
-                        <h4> DUE: {{event.date}}</h4>
+                        <h4>DUE: {{event.date}}</h4>
                         <p>Project Lead: {{event.people}}<br> {%for person in site.data.people%}
                             {%if event.people contains person.p_id%}
                             <img class="col-2 rounded-circle" src='{{person.image}}' />
@@ -27,11 +30,12 @@ layout: default
                     <div class="col-4 pt-2"><a class="btn {%if event.type == 'deadline' %}btn-warning{%elsif event.type == 'milestone' %}btn-success{%elsif event.type == 'conference'%}btn-info{%endif%}" href="timeline.html#{{event.date}}">{{event.type}}</a>
                     </div>
                 </div>
-                {%if forloop.last%}
+                {% if forloop.last %}
                 <p class="text-center">
                     <a class="btn btn-lg btn-info" href="timeline.html#{{event.date}}">View More Timeline Events</a></p>{%endif%}
-                {%endunless%}
-                {%endfor%}
+                {% endunless %}
+                {% endif %}
+                {% endfor %}
 
             </div>
         </div>
@@ -45,12 +49,12 @@ layout: default
                 <h2>Recent Meetings</h2>
             </div>
             <div class="card-body">
-                {%for post in site.posts limit: 2 %}
+                {% for post in site.posts limit: 2 %}
                 <div class="ml-4">
-                    <h3><a target="_blank" href="{{post.url | relative_url}}">{{post.title}}</a></h3>
-                    <p>{{post.date | date: "%b %-d, %Y" }}</p>
+                    <h3><a target="_blank" href="{{post.url | relative_url}}">{{ post.title }}</a></h3>
+                    <p>{{ post.date | date: "%b %-d, %Y" }}</p>
                 </div>
-                {%endfor%}
+                {% endfor %}
                 <a class="btn btn-lg btn-info" href="meetings/">View All Meetings</a>
             </div>
         </div>
@@ -83,11 +87,11 @@ layout: default
             </div>
             <div class="card-body text-center">
                 {% assign people = site.data.people | sort: "name" %}
-                {%for person in people%}
+                {% for person in people %}
                 <img class="col-3 rounded-circle" src='{{person.image}}' />
-                <p><a href="{{person.link}}">{{person.name}}</a> | <a href="{{person.email}}"><i class="fas fa-envelope"></i></a>
+                <p><a href="{{person.link}}">{{ person.name }}</a> | <a href="{{ person.email }}"><i class="fas fa-envelope"></i></a>
                 </p>
-                {%endfor%}
+                {% endfor %}
             </div>
         </div>
     </div>
