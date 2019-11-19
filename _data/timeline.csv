@@ -10,8 +10,8 @@ deadline,2019-10-30,Special Issue: DH + Literacies Proposal,n/a,https://acrl.ala
 deadline,2019-10-31,CollectionsasData Cohort 2 Grant Application,tbd,https://collectionsasdata.github.io/part2whole/cfp/,,high,ewilliamson,void,grant
 deadline,2019-11-01,GlobalDH CFP,"Lansing, MI",http://www.msuglobaldh.org/cfp/,,med,dbecker,void,talk
 conference,2020-03-26,GlobalDH,"Lansing, MI",http://www.msuglobaldh.org/cfp/,,med,,void,
-deadline,2019-11-22,Designing for Digital CFP,"Austin, TX",http://designingfordigital.com/speaking-opportunities/,,low,ewilliamson,,talk
-conference,2020-03-09,Designing for Digital,"Austin, TX",http://designingfordigital.com/speaking-opportunities/,,low,,,
+deadline,2019-11-22,Designing for Digital CFP,"Austin, TX",http://designingfordigital.com/speaking-opportunities/,,low,ewilliamson,void,talk
+conference,2020-03-09,Designing for Digital,"Austin, TX",http://designingfordigital.com/speaking-opportunities/,,low,,void,
 deadline,2019-11-22,Digital Initiatives CFP,"San Diego, CA",https://digital.sandiego.edu/symposium/,,low,omwikle,,talk
 conference,2020-04-27,Digital Initiatives,"San Diego, CA",https://digital.sandiego.edu/symposium/,,low,,,
 deadline,2019-12-09,Online NW,"Portland, OR",https://onlinenorthwest.org/,,med,omwikle,,talk
@@ -21,6 +21,6 @@ deadline,2019-12-20,CollectionBuilder Pedagogy Article Internal Deadline,n/a,,,m
 conference,2019-10-13,DLF Workshop,,,,,dbecker; ewilliamson; omwikle,done,workshop
 conference,2019-10-14,DLF Presentation,,,,,dbecker; ewilliamson; omwikle,done,talk
 conference,2020-05-13,"csv,conf,v5","Washington, D.C.",https://csvconf.com/,,,,
-deadline,2020-02-07,"csv,conf,v5 Presentation CFP","Washington, D.C.",https://csvconf.com/,,,omwikle;,,talk
+deadline,2020-02-07,"csv,conf,v5 Presentation CFP","Washington, D.C.",https://csvconf.com/,,,ewilliamson;omwikle,,talk
 deadline,2020-01-30,"Digital Humanities Quarterly Special Issue on Minimal Computing",n/a,http://www.digitalhumanities.org/dhq/submissions/cfps.html,,,omwikle;dbecker;ewilliamson,,article
-conference,2020-06-07,"DHSI","Victoria, B.C.",https://dhsi.org/course-offerings/,,,,,
+conference,2020-06-07,"DHSI","Victoria, B.C.",https://dhsi.org/course-offerings/,,,dbecker; ewilliamson; omwikle,,
